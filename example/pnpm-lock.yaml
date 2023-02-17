@@ -2,11 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vitejs/plugin-vue': ^4.0.0
+  intro.js: ^6.0.0
   intro.js-vue: link:..
   vite: ^4.1.0
   vue: ^3.2.45
 
 dependencies:
+  intro.js: 6.0.0
   intro.js-vue: link:..
   vue: 3.2.47
 
@@ -375,6 +377,10 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /intro.js/6.0.0:
+    resolution: {integrity: sha512-ZUiR6BoLSvPSlLG0boewnWVgji1fE1gBvP/pyw5pgCKXEDQz1mMeUxarggClPNs71UTq364LwSk9zxz17A9gaQ==}
+    dev: false
 
   /is-core-module/2.11.0:
     resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
