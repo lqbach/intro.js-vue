@@ -1,8 +1,8 @@
-import directive from './v-click-outside'
+import Intro from './intro'
 
 const plugin = {
   install(app, options) {
-    app.provide('introJs', options)
+    app.directive('intro', Intro)
   },
   directive,
 }
