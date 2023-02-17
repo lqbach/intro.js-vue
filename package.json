@@ -2,8 +2,8 @@
   "name": "intro.js-vue",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -11,8 +11,9 @@
     "format": "prettier --write '**/*.{js,json,md,scss,ts,vue,css}'",
     "prepare": "husky install"
   },
-  "dependencies": {
-    "vue": "^3.2.45"
+  "peerDependencies": {
+    "vue": ">=3.2.45",
+    "intro.js": ">=6.0.0"
   },
   "lint-staged": {
     "*{.js,.md,.vue}": "eslint --ext",
