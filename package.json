@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.vue,.md ./",
-    "format": "prettier --write '**/*.{js,json,md,scss,ts,vue,css}'",
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write ./src",
     "prepare": "husky install"
   },
   "peerDependencies": {
