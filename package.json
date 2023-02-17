@@ -1,7 +1,14 @@
 {
   "name": "intro.js-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "intro.js bindings for Vue 3",
+  "main": "./dist/intro.js-vue.js",
+  "module": "./dist/intro.js-vue.mjs",
+  "jsdelivr": "./dist/intro.js-vue.iife.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -14,7 +21,8 @@
     "coverage": "vitest run --coverage"
   },
   "peerDependencies": {
-    "vue": ">=3.2.45"
+    "vue": ">=3.2.45",
+    "intro.js": ">=6.0.0"
   },
   "lint-staged": {
     "*{.js,.md,.vue}": "eslint --ext",
