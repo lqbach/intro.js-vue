@@ -9,11 +9,12 @@
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write ./src",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "peerDependencies": {
-    "vue": ">=3.2.45",
-    "intro.js": ">=6.0.0"
+    "vue": ">=3.2.45"
   },
   "lint-staged": {
     "*{.js,.md,.vue}": "eslint --ext",
@@ -21,11 +22,18 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.2.10",
     "eslint": "^8.33.0",
     "eslint-plugin-vue": "^9.9.0",
+    "happy-dom": "^8.4.3",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.1",
     "prettier": "^2.8.4",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "vitest": "^0.28.5",
+    "vue": ">=3.2.45"
+  },
+  "dependencies": {
+    "intro.js": "^6.0.0"
   }
 }
