@@ -1,5 +1,6 @@
 import Intro from './directives/intro'
 import introJs from 'intro.js'
+import 'intro.js/introjs.css'
 
 const plugin = {
   install: (app, options) => {

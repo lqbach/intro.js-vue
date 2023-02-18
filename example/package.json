@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "intro.js-vue": "link:..",
-    "vue": "^3.2.45",
-    "intro.js": "^6.0.0"
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
