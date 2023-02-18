@@ -6,7 +6,7 @@ import Intro from '../'
 describe('v-intro', () => {
   it('v-intro should add data-intro attribute with content data', () => {
     const wrapper = mount({
-      directives: { Intro },
+      directives: { intro: Intro },
       template: `<div v-intro="'content'" />`,
     })
 
