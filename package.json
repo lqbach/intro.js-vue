@@ -24,8 +24,8 @@
     "vue": ">=3.2.45"
   },
   "lint-staged": {
-    "*{.js,.md,.vue}": "eslint --ext",
-    "**/*.{js,json,md,scss,ts,vue}": "prettier --write"
+    "*{.js,.ts,.vue}": "eslint --ext",
+    "**/*.{js,json,scss,ts,vue}": "prettier --write"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
