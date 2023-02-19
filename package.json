@@ -1,6 +1,12 @@
 {
   "name": "intro.js-vue3",
   "version": "1.0.0-alpha.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqbach/intro.js-vue"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lqbach/intro.js-vue#readme",
   "description": "intro.js bindings for Vue 3",
   "main": "./dist/intro.js-vue.cjs.js",
   "module": "./dist/intro.js-vue.es.js",
