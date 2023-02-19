@@ -1,5 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, inject, onMounted } from 'vue'
+
+const introJs: any = inject('introJs')
+
+onMounted(() => {
+  introJs.start()
+})
 
 defineProps({
   msg: String,
