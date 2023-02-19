@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig, PluginOption } from 'vite'
 import { resolve } from 'path'
 import vue from '@vitejs/plugin-vue'
 import { name as packageName } from './package.json'
@@ -7,7 +7,7 @@ import viteCssExtractPlugin from './build/ViteCssExtractPlugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), viteCssExtractPlugin()],
+  plugins: [vue(), viteCssExtractPlugin() as PluginOption],
   build: {
     emptyOutDir: false,
     lib: {

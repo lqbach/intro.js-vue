@@ -28,6 +28,8 @@
     "**/*.{js,json,scss,ts,vue}": "prettier --write"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.2.10",
     "eslint": "^8.33.0",
