@@ -1,14 +1,8 @@
-<script setup>
-import { ref, inject, onMounted } from 'vue'
-
-const introJs = inject('introJs')
+<script setup lang="ts">
+import { ref } from 'vue'
 
 defineProps({
   msg: String,
-})
-
-onMounted(() => {
-  introJs.start()
 })
 
 const count = ref(0)
