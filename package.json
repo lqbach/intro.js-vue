@@ -44,5 +44,12 @@
   },
   "dependencies": {
     "intro.js": "^6.0.0"
-  }
+  },
+  "keywords": [
+    "vue3",
+    "vue",
+    "introjs",
+    "typescript",
+    "directives"
+  ]
 }
