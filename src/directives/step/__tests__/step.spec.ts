@@ -1,7 +1,9 @@
+// @ts-nocheck
+
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 
-import Step from '../'
+import Step from '..'
 
 describe('v-intro-step', () => {
   it('v-intro-step should add data-step attribute with a number constant', () => {
