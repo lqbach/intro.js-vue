@@ -1,6 +1,6 @@
 {
   "name": "intro.js-vue",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "intro.js bindings for Vue 3",
   "main": "./dist/intro.js-vue.cjs.js",
   "module": "./dist/intro.js-vue.es.js",
