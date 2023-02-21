@@ -1,2 +1,5 @@
 export { Intro } from './intro'
 export { Step } from './step'
+export { Title } from './title'
+export { HighlightClass } from './highlight-class'
+export { TooltipClass } from './tooltip-class'
